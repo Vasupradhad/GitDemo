@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="test.Listeners"/>
+  </listeners>
+  <test name="Validating title in the page(failed)">
+    <classes>
+      <class name="test.validateTitle">
+        <methods>
+          <include name="basepageNavigation"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test.validateTitle -->
+      <class name="test.validateNavigationbar">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- test.validateNavigationbar -->
+      <class name="test.HomePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test.HomePage -->
+    </classes>
+  </test> <!-- Validating title in the page(failed) -->
+  <test name="Validating Navigation bar(failed)">
+    <classes>
+      <class name="test.validateTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test.validateTitle -->
+      <class name="test.validateNavigationbar">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="validateAppNavBar"/>
+        </methods>
+      </class> <!-- test.validateNavigationbar -->
+      <class name="test.HomePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test.HomePage -->
+    </classes>
+  </test> <!-- Validating Navigation bar(failed) -->
+</suite> <!-- Failed suite [Suite] -->

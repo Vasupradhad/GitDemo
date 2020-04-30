@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-29T18:44:06Z" name="Suite" finished-at="2020-04-29T18:45:04Z" duration-ms="58222">
+    <groups>
+    </groups>
+    <test started-at="2020-04-29T18:44:06Z" name="Test" finished-at="2020-04-29T18:45:04Z" duration-ms="58222">
+      <class name="test.validateTitle">
+        <test-method signature="basepageNavigation()[pri:0, instance:test.validateTitle@58326051]" started-at="2020-04-30T00:14:22Z" name="basepageNavigation" finished-at="2020-04-30T00:14:22Z" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+      </class> <!-- test.validateTitle -->
+      <class name="test.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.HomePage@5ba88be8]" started-at="2020-04-30T00:14:06Z" name="initialize" finished-at="2020-04-30T00:14:13Z" duration-ms="7174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.validateTitle@58326051]" started-at="2020-04-30T00:14:13Z" name="initialize" finished-at="2020-04-30T00:14:22Z" duration-ms="9400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basepageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.HomePage@5ba88be8]" started-at="2020-04-30T00:14:22Z" name="basepageNavigation" data-provider="getData" finished-at="2020-04-30T00:14:38Z" duration-ms="16090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method signature="basepageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.HomePage@5ba88be8]" started-at="2020-04-30T00:14:38Z" name="basepageNavigation" data-provider="getData" finished-at="2020-04-30T00:14:59Z" duration-ms="20720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.HomePage@5ba88be8]" started-at="2020-04-30T00:14:59Z" name="teardown" finished-at="2020-04-30T00:14:59Z" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.validateTitle@58326051]" started-at="2020-04-30T00:14:59Z" name="teardown" finished-at="2020-04-30T00:15:04Z" duration-ms="4471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
